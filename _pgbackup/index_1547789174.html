@@ -9,7 +9,7 @@
         <link rel="apple-touch-icon-precomposed" href="assets/img/favicon/apple-touch-icon-152x152.png"> 
         <meta name="msapplication-TileColor" content="#FFFFFF"> 
         <meta name="msapplication-TileImage" content="assets/img/favicon/mstile-144x144.png"> 
-        <link rel="icon" href="assets/img/icon.png" sizes="32x32"> 
+        <link rel="icon" href="assets/img/favicon/favicon-32x32.png" sizes="32x32"> 
         <title>Materialize</title>         
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
         <!-- Materialize core CSS -->         
@@ -23,56 +23,80 @@
     </head>     
     <body> 
         <header> 
-            <nav class="top-nav">
+            <nav class="top-nav"> 
                 <div class="container"> 
                     <div class="nav-wrapper"> 
-                        <a class="page-title" style="float: right;"><b>CHUCS Club</b></a> 
+                        <a class="page-title" style="float: right;" target="_pg_blank">CHUCS Club</a> 
                     </div>                     
-                </div>
+                </div>                 
             </nav>             
             <div class="container"> 
                 <a href="#" data-activates="nav-mobile" class="button-collapse top-nav full" target="_pg_blank"><i class="mdi-navigation-menu"></i></a> 
             </div>             
             <ul id="nav-mobile" class="side-nav fixed" style="width: 240px;"> 
                 <li class="logo"> 
-                    <img src="assets\img\logo.png" href="index.html" width="200"/> 
+                    <img src="assets\img\back.png" width="200"/> 
                 </li>                 
                 <li class="bold"> 
-                    <a href="index.html" class="waves-effect waves-teal" target="_pg_blank">登入</a> 
+                    <a href="#" class="waves-effect waves-teal" target="_pg_blank">First Link</a> 
                 </li>                 
                 <li class="bold"> 
-                    <a href="#" class="waves-effect waves-teal" target="_pg_blank">行事曆</a> 
+                    <a href="#" class="waves-effect waves-teal" target="_pg_blank">Second Link</a> 
                 </li>                 
                 <li class="no-padding"> 
                     <ul class="collapsible collapsible-accordion"> 
                         <li class="bold"> 
-                            <a class="collapsible-header waves-effect waves-teal" target="_pg_blank">題目詳解</a> 
+                            <a class="collapsible-header waves-effect waves-teal" target="_pg_blank">Third Link</a> 
                             <div class="collapsible-body"> 
                                 <ul> 
                                     <li> 
-                                        <a href="#" target="_pg_blank">UVA</a> 
+                                        <a href="#" target="_pg_blank">Third, First</a> 
                                     </li>                                     
                                     <li> 
-                                        <a href="#" target="_pg_blank">CodeForces</a> 
+                                        <a href="#" target="_pg_blank">Third, Second</a> 
                                     </li>                                     
                                 </ul>                                 
                             </div>                             
                         </li>                         
                         <li class="bold active"> 
-                            <a class="collapsible-header waves-effect waves-teal active" target="_pg_blank">訓練</a> 
+                            <a class="collapsible-header waves-effect waves-teal active" target="_pg_blank">Components</a> 
                             <div class="collapsible-body" style="display: block;"> 
                                 <ul> 
                                     <li> 
-                                        <a class="waves-effect waves-teal" href="#parallax" target="_pg_blank">基礎指令</a> 
+                                        <a class="waves-effect waves-teal" href="#parallax" target="_pg_blank">Parallax</a> 
                                     </li>                                     
                                     <li> 
-                                        <a class="waves-effect waves-teal" href="#grid" target="_pg_blank">簡單訓練</a> 
+                                        <a class="waves-effect waves-teal" href="#grid" target="_pg_blank">Grids</a> 
+                                    </li>                                     
+                                    <li> 
+                                        <a class="waves-effect waves-teal" href="#shadows" target="_pg_blank">Shadows</a> 
+                                    </li>                                     
+                                    <li> 
+                                        <a class="waves-effect waves-teal" href="#tables" target="_pg_blank">Tables</a> 
+                                    </li>                                     
+                                    <li> 
+                                        <a class="waves-effect waves-teal" href="#collections" target="_pg_blank">Collections</a> 
+                                    </li>                                     
+                                    <li> 
+                                        <a class="waves-effect waves-teal" href="#buttons" target="_pg_blank">Buttons</a> 
+                                    </li>                                     
+                                    <li> 
+                                        <a class="waves-effect waves-teal" href="#cards" target="_pg_blank">Cards</a> 
+                                    </li>                                     
+                                    <li> 
+                                        <a class="waves-effect waves-teal" href="#form" target="_pg_blank">Form</a> 
+                                    </li>                                     
+                                    <li> 
+                                        <a class="waves-effect waves-teal" href="#collapsible" target="_pg_blank">Collapsible</a> 
+                                    </li>                                     
+                                    <li> 
+                                        <a class="waves-effect waves-teal" href="#modals" target="_pg_blank">Modals</a> 
+                                    </li>                                     
+                                    <li> 
+                                        <a class="waves-effect waves-teal" href="#tabs" target="_pg_blank">Tabs</a> 
                                     </li>                                     
                                 </ul>                                 
                             </div>                             
-                        </li>
-                        <li class="bold active"> 
-                            <a class="collapsible-header waves-effect waves-teal active" target="_pg_blank">About</a> 
                         </li>                         
                     </ul>                     
                 </li>                 
@@ -83,7 +107,59 @@
                 <div class="row"> 
                     <div class="col s12 m9 l10"> 
                         <div class="divider"></div>                         
-                        <h4 id="collapsible">本周公告</h4> 
+                        <h4 id="collapsible">Collapsible</h4> 
+                        <ul class="collapsible" data-collapsible="accordion"> 
+                            <li> 
+                                <div class="collapsible-header"> 
+                                    <i class="mdi-image-filter-drama"></i>First
+                                </div>                                 
+                                <div class="collapsible-body"> 
+                                    <p>Lorem ipsum dolor sit amet.</p> 
+                                </div>                                 
+                            </li>                             
+                            <li> 
+                                <div class="collapsible-header"> 
+                                    <i class="mdi-maps-place"></i>Second
+                                </div>                                 
+                                <div class="collapsible-body"> 
+                                    <p>Lorem ipsum dolor sit amet.</p> 
+                                </div>                                 
+                            </li>                             
+                            <li> 
+                                <div class="collapsible-header"> 
+                                    <i class="mdi-social-whatshot"></i>Third
+                                </div>                                 
+                                <div class="collapsible-body"> 
+                                    <p>Lorem ipsum dolor sit amet.</p> 
+                                </div>                                 
+                            </li>                             
+                        </ul>                         
+                        <ul class="collapsible" data-collapsible="expandable"> 
+                            <li> 
+                                <div class="collapsible-header"> 
+                                    <i class="mdi-image-filter-drama"></i>First
+                                </div>                                 
+                                <div class="collapsible-body"> 
+                                    <p>Lorem ipsum dolor sit amet.</p> 
+                                </div>                                 
+                            </li>                             
+                            <li> 
+                                <div class="collapsible-header"> 
+                                    <i class="mdi-maps-place"></i>Second
+                                </div>                                 
+                                <div class="collapsible-body"> 
+                                    <p>Lorem ipsum dolor sit amet.</p> 
+                                </div>                                 
+                            </li>                             
+                            <li> 
+                                <div class="collapsible-header"> 
+                                    <i class="mdi-social-whatshot"></i>Third
+                                </div>                                 
+                                <div class="collapsible-body"> 
+                                    <p>Lorem ipsum dolor sit amet.</p> 
+                                </div>                                 
+                            </li>                             
+                        </ul>                         
                         <ul class="collapsible popout" data-collapsible="accordion"> 
                             <li> 
                                 <div class="collapsible-header"> 
@@ -129,18 +205,17 @@
                                     </li>                                     
                                 </ul>                                 
                             </div>                             
-                            <div id="test1" class="col s12">
-                                <br>Test 1
+                            <div id="test1" class="col s12">Test 1
+                                <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                             </div>                             
-                            <div id="test2" class="col s12">
-                                <br>Test 2
-                            </div>                             
-                            <div id="test3" class="col s12">
-                                <br>Test 3
-                            </div>                             
-                            <div id="test4" class="col s12">
-                                <br>Test 4
-                            </div>                             
+                            <div id="test2" class="col s12">Test 2</div>                             
+                            <div id="test3" class="col s12">Test 3</div>                             
+                            <div id="test4" class="col s12">Test 4</div>                             
                         </div>                         
                     </div>                     
                 </div>                 
@@ -150,7 +225,7 @@
             <div class="container"> 
                 <div class="row"> 
                     <div class="col l6 s12"> 
-                        <h5 class="white-text">程式競賽研討社</h5> 
+                        <h5 class="white-text">Footer Content</h5> 
                         <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p> 
                     </div>                     
                     <div class="col l4 offset-l2 s12"> 
@@ -174,7 +249,7 @@
             </div>             
             <div class="footer-copyright"> 
                 <div class="container">© 2019 chucs club
-                    <a class="grey-text text-lighten-4 right" href="#!" target="_pg_blank" style="float: none;"><b></b></a> 
+                    <a class="grey-text text-lighten-4 right" href="#!" target="_pg_blank">More Links</a> 
                 </div>                 
             </div>             
         </footer>         
