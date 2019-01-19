@@ -6,10 +6,10 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <!-- Favicons-->
-        <link rel="apple-touch-icon-precomposed" href="assets/img/favicon/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon-precomposed" href="assets/img/apple-touch-icon-152x152.png">
         <meta name="msapplication-TileColor" content="#FFFFFF">
         <meta name="msapplication-TileImage" content="assets/img/favicon/mstile-144x144.png">
-        <link rel="icon" href="assets/img/favicon/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" href="assets/img/favicon-32x32.png" sizes="32x32">
         <title>Materialize</title>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!-- Materialize core CSS -->
@@ -19,14 +19,14 @@
             <script src="assets/js/html5shiv.js"></script>
             <script src="assets/js/respond.min.js"></script>
         <![endif]-->
-        <link href="template.css" rel="stylesheet" type="text/css">
+        <link href="materialize/css/template.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <header>
             <nav class="top-nav">
                 <div class="container">
                     <div class="nav-wrapper">
-                        <a class="page-title" style="float: right;">CHUCS Club</a>
+                        <a class="page-title">Components</a>
                     </div>
                 </div>
             </nav>
@@ -35,7 +35,9 @@
             </div>
             <ul id="nav-mobile" class="side-nav fixed" style="width: 240px;">
                 <li class="logo">
-                    <img src="assets\img\slider1.jpg" width="200"/>
+                    <a id="logo-container" href="#" class="brand-logo">
+                        <object id="front-page-logo" type="image/svg+xml" data="http://materializecss.com/res/materialize.svg">Your browser does not support SVG</object>
+                    </a>
                 </li>
                 <li class="bold">
                     <a href="#" class="waves-effect waves-teal">First Link</a>
@@ -476,6 +478,6 @@
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="assets/js/jquery.min.js"></script>
         <script src="materialize/js/materialize.js"></script>
-        <script src="index.js"></script>
+        <script src="materialize/js/index.js"></script>
     </body>
 </html>
