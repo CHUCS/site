@@ -1,109 +1,496 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <!-- Favicons-->
-        <link rel="apple-touch-icon-precomposed" href="assets/img/favicon/apple-touch-icon-152x152.png">
-        <meta name="msapplication-TileColor" content="#FFFFFF">
-        <meta name="msapplication-TileImage" content="assets/img/favicon/mstile-144x144.png">
-        <link rel="icon" href="../assets/img/icon.png" sizes="32x32">
-        <title>CHUCSC</title>
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <!-- Materialize core CSS -->
-        <link href="../materialize/css/materialize.css" rel="stylesheet" type="text/css">
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="utf-8"> 
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content=""> 
+        <meta name="author" content=""> 
+        <!-- Favicons-->         
+        <link rel="apple-touch-icon-precomposed" href="assets/img/favicon/apple-touch-icon-152x152.png"> 
+        <meta name="msapplication-TileColor" content="#FFFFFF"> 
+        <meta name="msapplication-TileImage" content="assets/img/favicon/mstile-144x144.png"> 
+        <link rel="icon" href="../assets/img/icon.png" sizes="32x32"> 
+        <title>CHUCSC</title>         
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+        <!-- Materialize core CSS -->         
+        <link href="../materialize/css/materialize.css" rel="stylesheet" type="text/css"> 
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->         
         <!--[if lt IE 9]>
             <script src="assets/js/html5shiv.js"></script>
             <script src="assets/js/respond.min.js"></script>
-        <![endif]-->
-        <link href="../materialize/css/template.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arizonia">
-    </head>
+        <![endif]-->         
+        <link href="../materialize/css/template.css" rel="stylesheet" type="text/css"> 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arizonia"> 
+    </head>     
     <body> 
         <header> 
-            <nav class="top-nav">
+            <nav class="top-nav"> 
                 <div class="container"> 
                     <div class="nav-wrapper"> 
                         <a class="page-title" style="float: right;"><b style="font-family: Arizonia;">CHUCS Club</b></a> 
                     </div>                     
-                </div>
+                </div>                 
             </nav>             
             <div class="container"> 
                 <a href="#" data-activates="nav-mobile" class="button-collapse top-nav full" target="_pg_blank"><i class="mdi-navigation-menu"></i></a> 
             </div>             
             <ul id="nav-mobile" class="side-nav fixed" style="width: 240px;"> 
                 <li class="logo" style="height: 160px;"> 
-                    <a href="../index.html" title="Home" style="float: left;">
+                    <a href="../index.html" title="Home" style="float: left;"> 
                         <img src="../assets/img/logo.png" width="200" style="float: right;"/> 
-                    </a>
+                    </a>                     
+                </li>                 
+                <li class="bold"> 
+                    <a href="../game/gameview.html" class="waves-effect waves-teal" target="_pg_blank">社團小遊戲</a> 
                 </li>                 
                 <li class="bold"> 
                     <a href="../volume/view.html" class="waves-effect waves-teal" target="_pg_blank">解題報告</a> 
                 </li>                 
                 <li class="no-padding"> 
                     <ul class="collapsible collapsible-accordion"> 
-                        <li class="bold active">
-                            <a class="collapsible-header waves-effect waves-teal active">基礎訓練</a>
-                            <div class="collapsible-body" style="display: block;">
-                                <ul>
-                                    <li>
-                                        <a class="waves-effect waves-teal" href="../train/ch01.html">第一章 初次見面</a>
-                                    </li>
-                                    <li>
-                                        <a class="waves-effect waves-teal" href="../train/ch02.html">第二章 運算式</a>
-                                    </li>
-                                    <li>
-                                        <a class="waves-effect waves-teal" href="../train/ch03.html">第三章 敘述式</a>
-                                    </li>
-                                    <li>
-                                        <a class="waves-effect waves-teal" href="../train/ch04.html">第四章 迴圈控制</a>
-                                    </li>
-                                    <li>
-                                        <a class="waves-effect waves-teal" href="../train/ch05.html">第五章 陣列</a>
-                                    </li>
-                                    <li>
-                                        <a class="waves-effect waves-teal" href="../train/ch06.html">第六章 字串</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
+                        <li class="bold active"> 
+                            <a class="collapsible-header waves-effect waves-teal active">基礎訓練</a> 
+                            <div class="collapsible-body" style="display: block;"> 
+                                <ul> 
+                                    <li> 
+                                        <a class="waves-effect waves-teal" href="../train/ch01.html">第一章 初次見面</a> 
+                                    </li>                                     
+                                    <li> 
+                                        <a class="waves-effect waves-teal" href="../train/ch02.html">第二章 入門</a> 
+                                    </li>                                     
+                                    <li> 
+                                        <a class="waves-effect waves-teal" href="../train/ch03.html">第三章 敘述式</a> 
+                                    </li>                                     
+                                    <li> 
+                                        <a class="waves-effect waves-teal" href="../train/ch04.html">第四章 迴圈控制</a> 
+                                    </li>                                     
+                                    <li> 
+                                        <a class="waves-effect waves-teal" href="../train/ch05.html">第五章 陣列</a> 
+                                    </li>                                     
+                                    <li> 
+                                        <a class="waves-effect waves-teal" href="../train/ch06.html">第六章 字串</a> 
+                                    </li>                                     
+                                </ul>                                 
+                            </div>                             
+                        </li>                         
                     </ul>                     
                 </li>                 
             </ul>             
         </header>         
         <main class=""> 
-            <div class="container">
-                <div class="row">
-                    <div class="col s12 m9 l10">
-                        <div class="divider"></div>
-                        <h4 id="tabs1">第二章</h4>
-                        <div class="row">
-                            <div class="col s12">
-                                <ul class="tabs">
+            <div class="container"> 
+                <div class="row"> 
+                    <div class="col s13 m9 110">
+                        <br> 
+                        <h4 id="tabs">第二章</h4> 
+                        <div class="row"> 
+                            <div class="col s12"> 
+                                <ul class="tabs"> 
+                                    <li class="tab col s3"> 
+                                        <a class="active" href="#test1">基本運算</a> 
+                                    </li>                                     
+                                    <li class="tab col s3"> 
+                                        <a href="#test2">型態</a> 
+                                    </li>                                     
+                                    <li class="tab col s3"> 
+                                        <a href="#test3">運算符與字符</a> 
+                                    </li>                                     
+                                    <li class="tab col s3"> 
+                                        <a href="#test4">格式化輸出</a> 
+                                    </li>                                     
                                     <li class="tab col s3">
-                                        <a class="active" href="#test1">Test 1</a>
+</li>                                     
+                                </ul>                                 
+                            </div>
+                            <div id="test1" class="col s12">
+                                <h3 style="font-weight: bold;">C++的算術運算:</h3>
+                                <h5 style="font-weight: bold;">簡介:</h5>
+                                <p>
+                                    這邊將會教你一些基本的算術運算符如果你想知道其他的運算符可以到<mark>運算符與字符</mark>。<br> <b>小叮嚀:</b>在運算的時候如果沒有用小括括弧起來都是由左至右計算。 </p>
+                                <br>
+                                <div class="divider"></div>
+                                <br>
+                                <h5 style="font-weight: bold;">算術運算子的優先順序:</h5>
+                                <table>
+                                    <thead> 
+                                        <tr> 
+                                            <th data-field="id">運算子</th> 
+                                            <th data-field="name">運算</th> 
+                                            <th data-field="name">計算的順序(優先順序)</th> 
+                                        </tr>                                         
+                                    </thead>                                     
+                                    <tbody> 
+                                        <tr> 
+                                            <td>( )</td> 
+                                            <td>小括弧</td>
+                                            <td>第一個計算。如果小括弧是巢狀的話，會先計算最內層的。</td> 
+                                        </tr>                                         
+                                    </tbody>
+                                    <thead> 
+                                        <tr></tr>                                         
+                                    </thead>                                     
+                                    <tbody> 
+                                        <tr> 
+                                            <td>*</td> 
+                                            <td>乘法</td>
+                                            <td>第二個計算。</td> 
+                                        </tr>                                         
+                                    </tbody>
+                                    <thead> 
+                                        <tr></tr>                                         
+                                    </thead>                                     
+                                    <tbody> 
+                                        <tr> 
+                                            <td>/</td> 
+                                            <td>除法</td>
+                                            <td>由左至右。</td> 
+                                        </tr>                                         
+                                    </tbody>
+                                    <thead> 
+                                        <tr></tr>                                         
+                                    </thead>                                     
+                                    <tbody> 
+                                        <tr> 
+                                            <td>%</td> 
+                                            <td>取餘數(MOD)</td>
+                                            <td>由左至右。</td> 
+                                        </tr>                                         
+                                    </tbody>
+                                    <thead> 
+                                        <tr></tr>                                         
+                                    </thead>                                     
+                                    <tbody> 
+                                        <tr> 
+                                            <td>+</td> 
+                                            <td>加法</td>
+                                            <td>第三個計算。</td> 
+                                        </tr>                                         
+                                    </tbody>
+                                    <thead> 
+                                        <tr></tr>                                         
+                                    </thead>                                     
+                                    <tbody> 
+                                        <tr> 
+                                            <td>-</td> 
+                                            <td>減法</td>
+                                            <td>由左至右。</td> 
+                                        </tr>                                         
+                                    </tbody>
+                                    <thead> 
+                                        <tr></tr>                                         
+                                    </thead>                                     
+                                    <tbody> 
+                                        <tr> 
+                                            <td>=</td> 
+                                            <td>賦予</td>
+                                            <td>最後計算。</td> 
+                                        </tr>                                         
+                                    </tbody>
+                                </table>                                 
+                                <h5 style="font-weight: bold;">簡單的算術:</h5>
+                                <blockquote>這條棒棒後面是執行結果~</blockquote>
+                                <br>
+                                <div class="divider"></div>
+                                <br>
+                                <p>
+                                    加法: <script src="https://gist.github.com/Daviswww/99fefb0a836a78db4aeefe9cd24bf835.js"></script> </p>
+                                <blockquote>10 + 5 = 15</blockquote>
+                                <br>
+                                <div class="divider"></div>
+                                <br>
+                                <p>
+                                    減法: <script src="https://gist.github.com/Daviswww/116eeda34718168adb485e8b3ecfffdc.js"></script> </p>
+                                <blockquote>10 - 5 = 5</blockquote>
+                                <br>
+                                <div class="divider"></div>
+                                <br>
+                                <p>
+                                    乘法: <script src="https://gist.github.com/Daviswww/6fb7a09e545eb7e5b5fa379c2eac1c50.js"></script> </p>
+                                <blockquote>10 * 5 = 50</blockquote>
+                                <br>
+                                <div class="divider"></div>
+                                <br>
+                                <p>
+                                    除法: <script src="https://gist.github.com/Daviswww/6ab5ff1db8ae9a2cd3b59cef03477fb6.js"></script> </p>
+                                <blockquote>10 / 5 = 2</blockquote>
+                                <br>
+                                <div class="divider"></div>
+                                <br>
+                                <p>
+                                    取餘數(MOD): <script src="https://gist.github.com/Daviswww/72aa6ef6be360680489ee9b39f8a952d.js"></script> </p>
+                                <blockquote>10 % 5 = 0</blockquote>
+                                <br>
+                                <div class="divider"></div>
+                                <br>
+                                <p>
+                                    混用: <script src="https://gist.github.com/Daviswww/5f42c7044f2bb81bd3496f044f97fc22.js"></script> </p>
+                                <blockquote>((1 + 2) * 5 ) / 5 + 3 * 6 = 21</blockquote>
+                            </div>                             
+                            <div id="test2" class="col s12">
+                                <h3 style="font-weight: bold;">資料型態的運用:</h3>
+                                <h5 style="font-weight: bold;">簡介:</h5>
+                                <p>
+                                    這邊會簡單的教你如何使用一個型態宣告變數來儲存你的資料，做一些簡單的運算。<br>
+                                    如果想要更詳細的了解型態可以往下。</p>
+                                <br>
+                                <div class="divider"></div>
+                                <br>
+                                <h5 style="font-weight: bold;">如何宣告一個變數:</h5>
+                                <p>
+                                    如果我們要宣告一個有型態的變數那我們在變數的前面就必須加上他的型態，下面我舉幾個常用的型態。<br> <script src="https://gist.github.com/Daviswww/46c1cddca414da9069adfc259db81154.js"></script>
+                                    以上面第一個例子，我宣告了一個叫做a的整數型態，那麼我就可以把這a儲存整數的資料，例如 a = 1024 那 a 就等於 1024。 </p>
+                                <br>
+                                <div class="divider"></div>
+                                <br>
+                                <h5 style="font-weight: bold;">變數的運用:</h5>
+                                <blockquote>這條棒棒後面是執行結果~</blockquote>
+                                <p>
+                                    宣告一個有型態的變數接來如何運用這些變數，其實很簡單就跟一般在運算時一樣，只是它變成了一個代數運算罷了。<br>
+                                    下面我宣告了a與b都賦予它們一個值50接著把他們兩個相加。<br> <script src="https://gist.github.com/Daviswww/937106884c3a0462e334e2187bd807e3.js"></script> </p>
+                                <blockquote>a + b = 100</blockquote>
+                                <b>你也可以這樣寫:</b>
+                                <p> <script src="https://gist.github.com/Daviswww/3d073dcf38d72aa2d71a76c87d45143f.js"></script> </p>
+                                <b>更複雜的運算:</b>
+                                <p> <script src="https://gist.github.com/Daviswww/b8b349dac6b6788f748716f2303624cd.js"></script> </p>
+                                <blockquote>Ans: 420</blockquote>
+                                <h5 style="font-weight: bold;">兩種方法讓你輕鬆一些:</h5>
+                                <p>
+                               	程式員都是偷懶的，有時候要一直重複的宣告一個值是非常麻煩的，如果要改的時候全部都要改，漏改的話還要找老半天，就像我要計算一個圓周結果我用複製貼上的發現我複製錯了!這時候你就要每個都要修正ORZ...(雖然我下面舉的是正確的)。<br> <script src="https://gist.github.com/Daviswww/45f4a65cdbca41b6015ccd8a93329607.js"></script> </p>
+                                <blockquote>Ans: 75.3982</blockquote>
+                                <b>鍵入的常量表達式（const）:</b>
+                                <p>
+                                    下面已經把原本的3.14159宣告成了一個pi，那麼以後要使用3.14159的時候就可以直接使用pi這個變數了，如果發現宣告錯誤了那只須要改一個就可以了。 <script src="https://gist.github.com/Daviswww/ac747494129e1f9722af6aec31cdbc75.js"></script>  </p>
+                                <blockquote>Ans: 75.3982</blockquote>
+                                <b>預處理器定義（#define）:</b>
+                                <p>
+                                    #define identifier replacement<br>
+                                    此替換由預處理器執行，並在編譯程序之前發生，從而導致一種盲目替換，不以任何方式檢查所涉及的類型或語法的有效性。 <script src="https://gist.github.com/Daviswww/5622dd83984ae6d4627426e6921c278b.js"></script><br>
+                                    還可以這樣寫:<br> <script src="https://gist.github.com/Daviswww/07c54187be04b3c779749747b2064991.js"></script> </p>
+                                <blockquote>交換前: a = 50 b = 100
+                                    <br>交換後: a = 100 b = 50
+                                </blockquote>
+                                <br>
+                                <div class="divider"></div>
+                                <br>
+                                <h3 style="font-weight: bold;">完整型態介紹:</h3>
+                                <h5 style="font-weight: bold;">基本型態種類:</h5>
+                                <ul>
+                                    <li>
+                                        <b>字符型態: </b>
+                                        它們可以表示單個字符，例如： 'C' 或 '*' 。
                                     </li>
-                                    <li class="tab col s3">
-                                        <a href="#test2">Test 2</a>
+                                    <li>
+                                        <b>數字整數類型：</b>
+                                        它們可以存儲整數值，例如： 64或1024。
                                     </li>
-                                    <li class="tab col s3">
-                                        <a href="#test3">Test 3</a>
+                                    <li>
+                                        <b>浮點類型： </b>
+                                        它們可以表示實際值，例如：3.14或0.01，具有不同的精度級別，取決於使用三種浮點類型中的哪一種。
                                     </li>
-                                    <li class="tab col s3">
-                                        <a href="#test4">Test 4</a>
+                                    <li>
+                                        <b>布爾類型： </b>
+                                        在C++中才有的，只能表示兩種狀態其中一種，不是true就是false。
                                     </li>
                                 </ul>
-                            </div>
-                        </div>
-                        <div id="test1" class="col s12">Test 1</div>
-                        <div id="test2" class="col s12">Test 2</div>
-                        <div id="test3" class="col s12">Test 3</div>
-                        <div id="test4" class="col s12">Test 4</div>
-                    </div>
-                </div>
+                                <br>
+                                <h5 style="font-weight: bold;">以下是C++中基本類型的完整列表：</h5>
+                                <table> 
+                                    <thead> 
+                                        <tr> 
+                                            <th data-field="id">型態種類</th> 
+                                            <th data-field="id">型態指令</th> 
+                                            <th data-field="name">尺寸/精度/簡介</th> 
+                                        </tr>                                         
+                                    </thead>                                     
+                                    <tbody> 
+                                        <tr> 
+                                            <th rowspan="4">字符類型</th> 
+                                            <td>char</td> 
+                                            <td>正好一個字節大小。至少8位。</td> 
+                                        </tr>                                         
+                                        <tr> 
+                                            <td>char16_t</td> 
+                                            <td>不小於char。至少16位。</td> 
+                                        </tr>                                         
+                                        <tr> 
+                                            <td>char32_t</td> 
+                                            <td>不小於char16_t。至少32位。</td> 
+                                        </tr>                                         
+                                        <tr> 
+                                            <td>wchar_t</td> 
+                                            <td>可以表示支持的最大字符集。</td> 
+                                        </tr>
+                                    </tbody>                                     
+                                    <thead> 
+                                        <tr></tr>                                         
+                                    </thead>                                     
+                                    <tbody> 
+                                        <tr> 
+                                            <th rowspan="5">整數類型 (有號)</th> 
+                                            <td>signed char</td> 
+                                            <td>大小相同char。至少8位。</td> 
+                                        </tr>                                         
+                                        <tr> 
+                                            <td>short int</td> 
+                                            <td>不小於signed char。至少16位。</td> 
+                                        </tr>                                         
+                                        <tr> 
+                                            <td>int</td> 
+                                            <td>不小於short int。至少16位。</td> 
+                                        </tr>                                         
+                                        <tr> 
+                                            <td>long int</td> 
+                                            <td>不小於int。至少32位。</td> 
+                                        </tr>
+                                        <tr> 
+                                            <td>long long int</td> 
+                                            <td>不小於long int。至少64位。</td> 
+                                        </tr>
+                                    </tbody>
+                                    <thead> 
+                                        <tr></tr>                                         
+                                    </thead>                                     
+                                    <tbody> 
+                                        <tr> 
+                                            <th rowspan="5">整數類型 (無號)</th> 
+                                            <td>unsigned char</td> 
+                                            <td>大小相同char。至少8位。</td> 
+                                        </tr>                                         
+                                        <tr> 
+                                            <td>unsigned short int</td> 
+                                            <td>不小於signed char。至少16位。</td> 
+                                        </tr>                                         
+                                        <tr> 
+                                            <td>unsigned int</td> 
+                                            <td>不小於short int。至少16位。</td> 
+                                        </tr>                                         
+                                        <tr> 
+                                            <td>unsigned long int</td> 
+                                            <td>不小於int。至少32位。</td> 
+                                        </tr>
+                                        <tr> 
+                                            <td>unsigned long long int</td> 
+                                            <td>不小於long int。至少64位。</td> 
+                                        </tr>
+                                    </tbody>
+                                    <thead> 
+                                        <tr></tr>
+                                    </thead>                                     
+                                    <tbody> 
+                                        <tr> 
+                                            <th rowspan="5">浮點數類型</th> 
+                                            <td>float</td>
+                                            <td>精度最低的型態。</td> 
+                                        </tr>                                         
+                                        <tr> 
+                                            <td>double</td> 
+                                            <td>精度不低於 float。</td> 
+                                        </tr>                                         
+                                        <tr> 
+                                            <td>long double</td> 
+                                            <td>精度不低於 double。</td> 
+                                        </tr>                                         
+                                    </tbody>
+                                    <thead> 
+                                        <tr> 
+</tr>                                         
+                                    </thead>                                     
+                                    <tbody> 
+                                        <tr> 
+                                            <th rowspan="5">字符串(C++)</th> 
+                                            <td>String</td>
+                                            <td>需標頭 &lt string &gt </td> 
+                                        </tr>                                         
+                                    </tbody>
+                                    <thead> 
+                                        <tr> 
+</tr>                                         
+                                    </thead>                                     
+                                    <tbody> 
+                                        <tr> 
+                                            <th rowspan="5">布爾類型</th> 
+                                            <td>bool</td>
+                                            <td>只有true或false。</td> 
+                                        </tr>                                         
+                                    </tbody>
+                                    <thead> 
+                                        <tr> 
+</tr>                                         
+                                    </thead>                                     
+                                    <tbody> 
+                                        <tr> 
+                                            <th rowspan="5">空洞類型</th> 
+                                            <td>void</td>
+                                            <td>沒有存儲空間。</td> 
+                                        </tr>                                         
+                                    </tbody>
+                                    <thead> 
+                                        <tr> 
+</tr>                                         
+                                    </thead>                                     
+                                    <tbody> 
+                                        <tr> 
+                                            <th rowspan="5">空指針</th> 
+                                            <td>decltype(nullptr)</td>
+                                            <td></td> 
+                                        </tr>                                         
+                                    </tbody>
+                                </table>                                 
+                                <br>
+                                <h5 style="font-weight: bold;">上面的類型大小：</h5>
+                                <table>
+                                    <thead> 
+                                        <tr> 
+                                            <th data-field="id">尺寸</th> 
+                                            <th style="text-align:right;">可表示值</th> 
+                                            <th data-field="name">簡化</th> 
+                                        </tr>                                         
+                                    </thead>                                     
+                                    <tbody> 
+                                        <tr> 
+                                            <td>8位</td> 
+                                            <td style="text-align:right;">256 = </td>
+                                            <td>2<sup>8</sup></td> 
+                                        </tr>                                         
+                                    </tbody>
+                                    <thead> 
+                                        <tr></tr>                                         
+                                    </thead>                                     
+                                    <tbody> 
+                                        <tr> 
+                                            <td>16位</td> 
+                                            <td style="text-align:right;">65,536 =</td>
+                                            <td>2<sup>16</sup></td> 
+                                        </tr>                                         
+                                    </tbody>
+                                    <thead> 
+                                        <tr></tr>                                         
+                                    </thead>                                     
+                                    <tbody> 
+                                        <tr> 
+                                            <td>32位	</td> 
+                                            <td style="text-align:right;">4,294,967,296 =</td>
+                                            <td>2<sup>32</sup></td> 
+                                        </tr>                                         
+                                    </tbody>
+                                    <thead> 
+                                        <tr></tr>                                         
+                                    </thead>                                     
+                                    <tbody> 
+                                        <tr> 
+                                            <td>64位</td> 
+                                            <td style="text-align:right;">18,446,744,073,709,551,616 =</td>
+                                            <td>2<sup>64</sup></td> 
+                                        </tr>                                         
+                                    </tbody>
+                                </table>                                 
+                            </div>                             
+                            <div id="test3" class="col s12">Test 3</div>                             
+                            <div id="test4" class="col s12">Test 4</div>                             
+                        </div>                         
+                    </div>                     
+                </div>                 
             </div>             
         </main>         
         <!-- Materialize core JavaScript -->         
@@ -111,5 +498,5 @@
         <script src="../assets/js/jquery.min.js"></script>         
         <script src="../materialize/js/materialize.js"></script>         
         <script src="../materialize/js/index.js"></script>         
-    </body>
+    </body>     
 </html>

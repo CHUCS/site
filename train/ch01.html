@@ -1,115 +1,250 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <!-- Favicons-->
-        <link rel="apple-touch-icon-precomposed" href="assets/img/favicon/apple-touch-icon-152x152.png">
-        <meta name="msapplication-TileColor" content="#FFFFFF">
-        <meta name="msapplication-TileImage" content="assets/img/favicon/mstile-144x144.png">
-        <link rel="icon" href="../assets/img/icon.png" sizes="32x32">
-        <title>CHUCSC</title>
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <!-- Materialize core CSS -->
-        <link href="../materialize/css/materialize.css" rel="stylesheet" type="text/css">
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content=""> 
+        <meta name="author" content=""> 
+        <!-- Favicons-->         
+        <link rel="apple-touch-icon-precomposed" href="assets/img/favicon/apple-touch-icon-152x152.png"> 
+        <meta name="msapplication-TileColor" content="#FFFFFF"> 
+        <meta name="msapplication-TileImage" content="assets/img/favicon/mstile-144x144.png"> 
+        <link rel="icon" href="../assets/img/icon.png" sizes="32x32"> 
+        <title>CHUCSC</title>         
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+        <!-- Materialize core CSS -->         
+        <link href="../materialize/css/materialize.css" rel="stylesheet" type="text/css"> 
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->         
         <!--[if lt IE 9]>
             <script src="assets/js/html5shiv.js"></script>
             <script src="assets/js/respond.min.js"></script>
-        <![endif]-->
-        <link href="../materialize/css/template.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arizonia">
-    </head>
+        <![endif]-->         
+        <link href="../materialize/css/template.css" rel="stylesheet" type="text/css"> 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arizonia"> 
+    </head>     
     <body> 
         <header> 
-            <nav class="top-nav">
+            <nav class="top-nav"> 
                 <div class="container"> 
                     <div class="nav-wrapper"> 
                         <a class="page-title" style="float: right;"><b style="font-family: Arizonia;">CHUCS Club</b></a> 
                     </div>                     
-                </div>
-            </nav>
+                </div>                 
+            </nav>             
             <div class="container"> 
                 <a href="#" data-activates="nav-mobile" class="button-collapse top-nav full" target="_pg_blank"><i class="mdi-navigation-menu"></i></a> 
             </div>             
             <ul id="nav-mobile" class="side-nav fixed" style="width: 240px;"> 
                 <li class="logo" style="height: 160px;"> 
-                    <a href="../index.html" title="Home" style="float: left;">
+                    <a href="../index.html" title="Home" style="float: left;"> 
                         <img src="../assets/img/logo.png" width="200" style="float: right;"/> 
-                    </a>
+                    </a>                     
+                </li>                 
+                <li class="bold"> 
+                    <a href="../game/gameview.html" class="waves-effect waves-teal" target="_pg_blank">社團小遊戲</a> 
                 </li>                 
                 <li class="bold"> 
                     <a href="../volume/view.html" class="waves-effect waves-teal" target="_pg_blank">解題報告</a> 
                 </li>                 
                 <li class="no-padding"> 
                     <ul class="collapsible collapsible-accordion"> 
-                        <li class="bold active">
-                            <a class="collapsible-header waves-effect waves-teal active">基礎訓練</a>
-                            <div class="collapsible-body" style="display: block;">
-                                <ul>
-                                    <li>
-                                        <a class="waves-effect waves-teal" href="../train/ch01.html">第一章 初次見面</a>
-                                    </li>
-                                    <li>
-                                        <a class="waves-effect waves-teal" href="../train/ch02.html">第二章 運算式</a>
-                                    </li>
-                                    <li>
-                                        <a class="waves-effect waves-teal" href="../train/ch03.html">第三章 敘述式</a>
-                                    </li>
-                                    <li>
-                                        <a class="waves-effect waves-teal" href="../train/ch04.html">第四章 迴圈控制</a>
-                                    </li>
-                                    <li>
-                                        <a class="waves-effect waves-teal" href="../train/ch05.html">第五章 陣列</a>
-                                    </li>
-                                    <li>
-                                        <a class="waves-effect waves-teal" href="../train/ch06.html">第六章 字串</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
+                        <li class="bold active"> 
+                            <a class="collapsible-header waves-effect waves-teal active">基礎訓練</a> 
+                            <div class="collapsible-body" style="display: block;"> 
+                                <ul> 
+                                    <li> 
+                                        <a class="waves-effect waves-teal" href="../train/ch01.html">第一章 初次見面</a> 
+                                    </li>                                     
+                                    <li> 
+                                        <a class="waves-effect waves-teal" href="../train/ch02.html">第二章 入門</a> 
+                                    </li>                                     
+                                    <li> 
+                                        <a class="waves-effect waves-teal" href="../train/ch03.html">第三章 敘述式</a> 
+                                    </li>                                     
+                                    <li> 
+                                        <a class="waves-effect waves-teal" href="../train/ch04.html">第四章 迴圈控制</a> 
+                                    </li>                                     
+                                    <li> 
+                                        <a class="waves-effect waves-teal" href="../train/ch05.html">第五章 陣列</a> 
+                                    </li>                                     
+                                    <li> 
+                                        <a class="waves-effect waves-teal" href="../train/ch06.html">第六章 字串</a> 
+                                    </li>                                     
+                                </ul>                                 
+                            </div>                             
+                        </li>                         
                     </ul>                     
                 </li>                 
-            </ul>
+            </ul>             
         </header>         
         <main class=""> 
-            <div class="container">
-                <div class="row">
-                    <div class="col s12 m9 l10">
-                        <div class="divider"></div>
-                        <h4 id="tabs1">第一章</h4>
-                        <div class="row">
-                            <div class="col s12">
-                                <ul class="tabs">
+            <div class="container"> 
+                <div class="row"> 
+                    <div class="col s13 m9 110"> 
+                        <br> 
+                        <h4 id="tabs">第一章</h4> 
+                        <div class="row"> 
+                            <div class="col s12"> 
+                                <ul class="tabs"> 
+                                    <li class="tab col s3"> 
+                                        <a class="active" href="#test1">編譯器</a> 
+                                    </li>                                     
+                                    <li class="tab col s3"> 
+                                        <a href="#test2">第一個C++程式</a> 
+                                    </li>                                     
+                                    <li class="tab col s3"> 
+                                        <a href="#test3">排版的重要</a> 
+                                    </li>                                     
+                                    <li class="tab col s3"> 
+                                        <a href="#test4">常見錯誤!!</a> 
+                                    </li>                                     
                                     <li class="tab col s3">
-                                        <a class="active" href="#test1">Test 1</a>
-                                    </li>
-                                    <li class="tab col s3">
-                                        <a href="#test2">Test 2</a>
-                                    </li>
-                                    <li class="tab col s3">
-                                        <a href="#test3">Test 3</a>
-                                    </li>
-                                    <li class="tab col s3">
-                                        <a href="#test4">Test 4</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div id="test1" class="col s12">Test 1</div>
-                        <div id="test2" class="col s12">Test 2</div>
-                        <div id="test3" class="col s12">Test 3</div>
-                        <div id="test4" class="col s12">Test 4</div>
-                    </div>
-                </div>
+</li>                                     
+                                </ul>                                 
+                            </div>                             
+                            <div id="test1" class="col s12">
+                                <h3>Dev C++</h3>
+                                <p> <a href="https://sourceforge.net/projects/orwelldevcpp/">這邊提供一個載下連結</a>
+                                    ，如果你沒有要更換路徑就下一步到底。</p>
+                                <div class="slider" data-slider> 
+                                    <ul class="slides"> 
+                                        <li> 
+                                            <img src="../assets/img/d0.png"> 
+                                        </li>                                         
+                                        <li> 
+                                            <img src="../assets/img/d1.png"> 
+                                        </li>                                         
+                                        <li> 
+                                            <img src="../assets/img/d2.png"> 
+                                        </li>                                         
+                                    </ul>
+                                </div>                                 
+                                <h3>Visual Studio C++</h3>
+                                <p> <a href="https://visualstudio.microsoft.com/zh-hant/?rr=https%3A%2F%2Fwww.google.com%2F">官方網站</a><br> <a href="https://download.chu.edu.tw/">學校下載</a> </p>
+                                <!--
+                                <div class="slider" data-slider> 
+                                    <ul class="slides"> 
+                                        <li> 
+                                            <img src="../assets/img/VC/v0.png"> 
+                                        </li>                                         
+                                        <li> 
+                                            <img src="../assets/img/VC/v1.png"> 
+                                            <div class="caption center-align"> 
+                                                <h5 class="light grey-text text-lighten-3">檔案 &gt 新增專案 &gt Visual C++ &gt Windows主控制台應用程式 &gt 確定</h5> 
+                                            </div>                                             
+                                        </li>                                         
+                                        <li> 
+                                            <img src="../assets/img/VC/v2.png"> 
+                                        </li>                                         
+                                        <li> 
+                                            <img src="../assets/img/VC/v3.png"> 
+                                        </li>                                         
+                                    </ul>                                     
+                                </div>-->
+                            </div>                             
+                            <div id="test2" class="col s12">
+                                <h3>程序結構</h3>
+                                <h5>程式的執行順序:</h5>
+                                <p>
+                                    基本上所有的編譯器都是由上而下由左而右的執行，所以在寫程式的時候務必照著這個邏輯寫! </p>
+                                <br>
+                                <div class="divider"></div>
+                                <br>
+                                <h5>框架:</h5>
+                                <p>
+                                    終於可以開始寫程式了。每個 C++ 的程式都有一個相同的「框」，我們先練習把這個「框」打到編輯視窗裡吧。<br> <script src="https://gist.github.com/Daviswww/88741b5edf1adc430f03fdd733cc8fc0.js" class="col s12"></script> 
+                                    以井字號（#）開頭的行是由所謂的預處理器讀取和解釋的指令。(以後我們會解釋這些函式的意義，現在你只要照著打就行了)<br>
+                                    名為"main"的函數是所有C ++程序中的特殊函數，它是程序運行時調用的函數。<br>
+                                    "main"無論函數在代碼中的實際位置如何，所有C ++程序的執行都從函數開始。<br>
+                                    左大括弧與右大括弧分別表示開始與結束。<br> </p>
+                                <br>
+                                <div class="divider"></div>
+                                <br>
+                                <h5>輸出:</h5>
+                                <p>
+                                    接下來我們加入一行C++語句。讓他印出一段文字。<br> <script src="https://gist.github.com/Daviswww/24d139ccc974c49ca042a2997f70da47.js"></script> <br>
+                                這個陳述有三個部分：<br>
+                                    第一部分，std::cout，它標識了standard characterout put device。<br>
+                                    第二部分，插入operator（&lt&lt），表示插入後面的內容std::cout。<br>
+                                    第三部分，引號內的句子（“Hello world！”）是插入標準輸出的內容。 </p>
+                                <br>
+                                <div class="divider"></div>
+                                <br>
+                                <h5>註解:</h5>
+                                <p>
+                                註解可分為兩種分別是多行與單行。<br> <script src="https://gist.github.com/Daviswww/812c9b11b8f4fdb3e23152c5ebac6c04.js"></script> </p>
+                                <br>
+                                <div class="divider"></div>
+                                <br>
+                                <h5>使用命名空間std:</h5>
+                                <p>
+									如果你看過下方C ++代碼，你可能已經看到cout被用來代替std::cout。<br>
+                                    兩者都命名相同的對象：第一個使用其非限定名稱（cout），而第二個直接在命名空間 std（as std::cout）中限定它。<br>
+									cout是標準庫的一部分，標準C ++庫中的所有元素都在所謂的命名空間中聲明：命名空間std。<br> <script src="https://gist.github.com/Daviswww/7fbdde5eebd0fef83a5bbe93c439b0a9.js"></script> </p>
+                            </div>                             
+                            <div id="test3" class="col s12">
+                                <h3>有一個好的排版習慣</h3>
+                                <ol type="I" start="1" style="font-size: 20px;">
+                                    <li>排版會「干擾」程式的可讀性。</li>
+                                    <li>沒有人喜歡看「一坨義大利麵」的程式碼。</li>
+                                    <li>使用熟悉的排版會使人很舒服，但陌生的排版則會使人感到焦慮。</li>
+                                    <li>排版是一種非常主觀且個性化的視覺設計，所以才會有這些淺規則。</li>
+                                    <li>寫程式就跟寫書一樣，不是只有你看得懂而已，不是只要他會動就好了。</li>
+                                </ol>
+                                <h3>以下介紹排版三大宗教:</h3>
+                                <h5>第一種 左右大括弧換行派:</h5>
+                                <ol style="font-size: 20px;">
+                                    <li>打完一行就換行。</li>
+                                    <li>左大括弧要換行。</li>
+                                    <li>右大括弧要換行。</li>
+                                    <li>以一個TAB為一個段落。</li>
+                                    <li>看情況留一行空白。</li>
+                                </ol>
+                                <script src="https://gist.github.com/Daviswww/7eb8dbe5149c86e2373f5dffa6af42ae.js"></script>
+                                <br>
+                                <h5>第二種 左大括弧不換行右大括弧換行派:</h5>
+                                <ol style="font-size: 20px;">
+                                    <li>打完一行就換行。</li>
+                                    <li>左大括弧不要換行。</li>
+                                    <li>右大括弧要換行。</li>
+                                    <li>以一個TAB為一個段落。</li>
+                                    <li>看情況留一行空白。</li>
+                                </ol>
+                                <script src="https://gist.github.com/Daviswww/44423ffced20ddb8a4eb75a8814ffbc2.js"></script>
+                                <h5>第三種 左大括弧不換行右大括弧也不換行派:</h5>
+                                <ol style="font-size: 20px;">
+                                    <li>打完一行就換行。</li>
+                                    <li>左大括弧不要換行。</li>
+                                    <li>右大括弧不要換行。</li>
+                                    <li>以一個TAB為一個段落。</li>
+                                    <li>看情況留一行空白。</li>
+                                </ol>
+                                <script src="https://gist.github.com/Daviswww/123889507a32e2a1dd2b330bc242f94e.js"></script>
+                                <h5> 註解:</h5>
+                                <p>
+                                    註解彼此溝通好統一寫在哪裡就好了。<br>
+                                    程式碼上面:<br> <script src="https://gist.github.com/Daviswww/529d27c43120df88338fbdcf6f7fa46b.js"></script>
+                                    程式碼後面:<br> <script src="https://gist.github.com/Daviswww/60ef5dde2efefdfaa76e09b6fa27c349.js"></script>
+                                    程式碼下面:<br> <script src="https://gist.github.com/Daviswww/e7c0e581c6bc5ab9cae3003a9be7fe0d.js"></script> </p>
+                            </div>                             
+                            <div id="test4" class="col s12">
+                                <h3>為什麼會錯QQ?</h3>
+                                <ol type="I" start="1" style="font-size: 26px;">
+                                    <li>忘了把剛剛還在執行的控制介面關掉了。</li>
+                                    <li>沒有加上分號「;」。</li>
+                                    <li>附檔名不是CPP。</li>
+                                    <li>cpp 檔未加入專案。(Visual)</li>
+                                    <li>字串未加「"」。</li>
+                                    <li>「==」和「=」搞錯了。</li>
+                                </ol>
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </div>                 
             </div>             
         </main>         
-        <!-- Materialize core JavaScript -->         
-        <!-- Placed at the end of the document so the pages load faster -->         
         <script src="../assets/js/jquery.min.js"></script>         
         <script src="../materialize/js/materialize.js"></script>         
         <script src="../materialize/js/index.js"></script>         
-    </body>
+    </body>     
 </html>
