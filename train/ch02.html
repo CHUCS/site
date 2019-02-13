@@ -104,7 +104,7 @@
                                 <h3 style="font-weight: bold;">C++的算術運算:</h3> 
                                 <h5 style="font-weight: bold;">簡介:</h5> 
                                 <p> 
-                                    這邊將會教你一些基本的算術運算符如果你想知道其他的運算符可以到<mark>運算符與字符</mark>。<br> <b>小叮嚀:</b>在運算的時候如果沒有用小括括弧起來都是由左至右計算。 </p> 
+                                    這邊將會教你一些基本的算術運算符。<br> <b>小叮嚀:</b>在運算的時候如果沒有用小括括弧起來都是由左至右計算。 </p> 
                                 <br> 
                                 <div class="divider"></div>                                 
                                 <br> 
@@ -262,7 +262,7 @@
                                 <b>預處理器定義（#define）:</b> 
                                 <p> 
                                     #define identifier replacement<br> 
-                                    此替換由預處理器執行，並在編譯程序之前發生，從而導致一種盲目替換，不以任何方式檢查所涉及的類型或語法的有效性。 <script src="https://gist.github.com/Daviswww/5622dd83984ae6d4627426e6921c278b.js"></script> <blockquote>Ans: 75.3982</blockquote><br>
+                                    此替換由預處理器執行，並在編譯程序之前發生，從而導致一種盲目替換，不以任何方式檢查所涉及的類型或語法的有效性。 <script src="https://gist.github.com/Daviswww/5622dd83984ae6d4627426e6921c278b.js"></script> <blockquote>Ans: 75.3982</blockquote><br> 
                                     還可以這樣寫:<br> <script src="https://gist.github.com/Daviswww/07c54187be04b3c779749747b2064991.js"></script> </p> 
                                 <blockquote>交換前: a = 50 b = 100
                                     <br>交換後: a = 100 b = 50
@@ -485,166 +485,166 @@
                                     </tbody>                                     
                                 </table>                                 
                             </div>                             
-                            <div id="test3" class="col s12">
-                                <h2 style="font-weight: bold;">C++才有的cout</h2>
-                                <h5 style="font-weight: bold;">簡介</h5>
-                                <p>
-                                    C++的cout想必大家並不陌生，不過他其實還可以配上其他的指令讓他可以有格式化的輸出，前面留空白等...這邊就簡單的介紹幾種常用的。 </p>
+                            <div id="test3" class="col s12"> 
+                                <h2 style="font-weight: bold;">Cout</h2> 
+                                <h5 style="font-weight: bold;">簡介</h5> 
+                                <p> 
+                                    C++的cout想必大家並不陌生，不過他其實還可以配上其他的指令讓他可以有格式化的輸出，前面留空白等...這邊就簡單的介紹幾種常用的。 </p> 
                                 <blockquote>這跟棒棒後面是輸出結果~</blockquote>                                 
                                 <br> 
                                 <div class="divider"></div>                                 
                                 <br> 
-                                <h5 style="font-weight: bold;">簡單得輸出:</h5>
-                                <p>
-                                    想必大家都對這個程式碼再熟悉不過了。<br> <script src="https://gist.github.com/Daviswww/4995f3326df99ac1da81373010393ab3.js"></script> </p>
+                                <h5 style="font-weight: bold;">簡單得輸出:</h5> 
+                                <p> 
+                                    想必大家都對這個程式碼再熟悉不過了。<br> <script src="https://gist.github.com/Daviswww/4995f3326df99ac1da81373010393ab3.js"></script> </p> 
                                 <blockquote>Hello World!</blockquote>                                 
-                                <p>
+                                <p> 
                                     多個列印。<br> <script src="https://gist.github.com/Daviswww/65417671a613564214a0c27725c7a054.js"></script> </p> 
-                                <blockquote>1. Hello World!2. Hello World!3. Hello World!</blockquote>
-                                <p>
-                                    如果我想換行怎麼辦呢?<br>
-                                   只需要在字尾加上endl(end line)就可以了。<br> <script src="https://gist.github.com/Daviswww/ce028ade73590bbea119fe34c770e822.js"></script> </p>
-                                <blockquote>
+                                <blockquote>1. Hello World!2. Hello World!3. Hello World!</blockquote>                                 
+                                <p> 
+                                    如果我想換行怎麼辦呢?<br> 
+                                   只需要在字尾加上endl(end line)就可以了。<br> <script src="https://gist.github.com/Daviswww/ce028ade73590bbea119fe34c770e822.js"></script> </p> 
+                                <blockquote> 
                                     1. Hello World!
-                                    <br>
+                                    <br> 
                                     2. Hello World!
-                                    <br>
+                                    <br> 
                                     3. Hello World!
-                                    <br>
+                                    <br> 
                                 </blockquote>                                 
-                                <h5 style="font-weight: bold;">格式化的輸出:</h5>
-                                <p>
-                                   	首先我們必須加上這個標頭才能實作之後的內容。<br> <script src="https://gist.github.com/Daviswww/7534c6c86be8d68738e7de9b614d6217.js"></script><br> </p>
-                                <h5 style="font-weight: bold;">設置字段寬度:</h5>
-                                <p>
-                                    setw(字段寬度)，這個指令是設置要在輸出操作上使用的字段寬度。<br>
-                                    下面範例我預設了10格然後輸出55，那55前面就會空8格。 <script src="https://gist.github.com/Daviswww/8063855c826bb7a87a8cb2e418c0741f.js"></script> </p>
-                                <blockquote>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;55</blockquote>
-                                <p>
-                                     如果我們再加一條指令setfill(預留位置顯示的字元)。<br>
-                                    下面範例我設定了預設字段要填0，然後預設了10格接著輸出55，那55前面就會補8格0。<br> <script src="https://gist.github.com/Daviswww/cf5aed55e9520c13831cf00666d6ee7f.js"></script> </p>
-                                <blockquote>0000000055</blockquote>
-                                <p>
-                                    很顯然的這個程式並不想印小數點第五位以後的數字了(注意:小數點的那個點也算一位喔!)。<br> <script src="https://gist.github.com/Daviswww/1c4ce8280ff64c7061928e365ff3176c.js"></script> </p>
-                                <blockquote>3.14159</blockquote>
-                                <p>
-                                    如果我們想要印小數點後更多位的話，再加一條指令setprecision(顯示小數點後幾位)。  <script src="https://gist.github.com/Daviswww/9d0c7de149d113cf5f8a21135af3d292.js"></script> </p>
-                                <blockquote>3.14159265359</blockquote>
-                                <p>
-                                    我也可以指定指印兩位或著不印。 <br> <script src="https://gist.github.com/Daviswww/9885e847ef869cc224cc2c7033e8fb11.js"></script> </p>
+                                <h5 style="font-weight: bold;">格式化的輸出:</h5> 
+                                <p> 
+                                   	首先我們必須加上這個標頭才能實作之後的內容。<br> <script src="https://gist.github.com/Daviswww/7534c6c86be8d68738e7de9b614d6217.js"></script><br> </p> 
+                                <h5 style="font-weight: bold;">設置字段寬度:</h5> 
+                                <p> 
+                                    setw(字段寬度)，這個指令是設置要在輸出操作上使用的字段寬度。<br> 
+                                    下面範例我預設了10格然後輸出55，那55前面就會空8格。 <script src="https://gist.github.com/Daviswww/8063855c826bb7a87a8cb2e418c0741f.js"></script> </p> 
+                                <blockquote>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;55</blockquote>                                 
+                                <p> 
+                                     如果我們再加一條指令setfill(預留位置顯示的字元)。<br> 
+                                    下面範例我設定了預設字段要填0，然後預設了10格接著輸出55，那55前面就會補8格0。<br> <script src="https://gist.github.com/Daviswww/cf5aed55e9520c13831cf00666d6ee7f.js"></script> </p> 
+                                <blockquote>0000000055</blockquote>                                 
+                                <p> 
+                                    很顯然的這個程式並不想印小數點第五位以後的數字了(注意:小數點的那個點也算一位喔!)。<br> <script src="https://gist.github.com/Daviswww/1c4ce8280ff64c7061928e365ff3176c.js"></script> </p> 
+                                <blockquote>3.14159</blockquote>                                 
+                                <p> 
+                                    如果我們想要印小數點後更多位的話，再加一條指令setprecision(顯示小數點後幾位)。  <script src="https://gist.github.com/Daviswww/9d0c7de149d113cf5f8a21135af3d292.js"></script> </p> 
+                                <blockquote>3.14159265359</blockquote>                                 
+                                <p> 
+                                    我也可以指定指印兩位或著不印。 <br> <script src="https://gist.github.com/Daviswww/9885e847ef869cc224cc2c7033e8fb11.js"></script> </p> 
                                 <blockquote>3.14
                                     <br>3
-                                </blockquote>
-                                <h5 style="font-weight: bold;">靠其:</h5>
-                                <p>
-                                    如何左右靠其，我們可以看下面的範例。 <script src="https://gist.github.com/Daviswww/3400f10c546053531bd05b3f458cd419.js"></script> </p>
-                                <blockquote>
+                                </blockquote>                                 
+                                <h5 style="font-weight: bold;">靠其:</h5> 
+                                <p> 
+                                    如何左右靠其，我們可以看下面的範例。 <script src="https://gist.github.com/Daviswww/3400f10c546053531bd05b3f458cd419.js"></script> </p> 
+                                <blockquote> 
                                     -3.1415&nbsp;&nbsp;&nbsp;.
-                                    <br>
+                                    <br> 
                                     -&nbsp;&nbsp;&nbsp;3.1415.
-                                    <br>
+                                    <br> 
                                     &nbsp;&nbsp;&nbsp;-3.1415.
-                                </blockquote>
-                                <h2 style="font-weight: bold;">我們常用的格式化輸出printf</h2>
-                                <h5 style="font-weight: bold;">簡介</h5>
-                                <p>
-                                    在使用printf之前我們要先知道型態對應的格式是什麼，這時候你可能就滿頭問號了，不過別緊張跟著範例看下去你很快就會學會了。<br>
-                                    如果你想更深入的了解型態對應的格式還有字符，我在最下面會列出完整的格式對應表與字符表。<br> </p>
+                                </blockquote>                                 
+                                <h2 style="font-weight: bold;">Printf</h2> 
+                                <h5 style="font-weight: bold;">簡介</h5> 
+                                <p> 
+                                    在使用printf之前我們要先知道型態對應的格式是什麼，這時候你可能就滿頭問號了，不過別緊張跟著範例看下去你很快就會學會了。<br> 
+                                    如果你想更深入的了解型態對應的格式還有字符，我在最下面會列出完整的格式對應表與字符表。<br> </p> 
                                 <blockquote>這跟棒棒後面是輸出結果~
 </blockquote>                                 
                                 <br> 
                                 <div class="divider"></div>                                 
                                 <br> 
-                                <h5 style="font-weight: bold;">printf的用法:</h5>
-                                <p>
-                                    其實用法語cout很像，只不過改成了printf，標頭改成#include &lt cstdio &gt(標準輸入輸出)，雖然C++包含著C不過我還是有義務告訴你。<br> <script src="https://gist.github.com/Daviswww/b241415014e337d76e9977fb7d1ebcb3.js"></script> </p>
+                                <h5 style="font-weight: bold;">printf的用法:</h5> 
+                                <p> 
+                                    其實用法語cout很像，只不過改成了printf，標頭改成#include &lt cstdio &gt(標準輸入輸出)，雖然C++包含著C不過我還是有義務告訴你。<br> <script src="https://gist.github.com/Daviswww/b241415014e337d76e9977fb7d1ebcb3.js"></script> </p> 
                                 <blockquote>Hello World!</blockquote>                                 
-                                <p>
-                                    計算也一樣。 <script src="https://gist.github.com/Daviswww/314dda36ad1b436ddc58471d031baa98.js"></script> </p>
+                                <p> 
+                                    計算也一樣。 <script src="https://gist.github.com/Daviswww/314dda36ad1b436ddc58471d031baa98.js"></script> </p> 
                                 <blockquote>20
                                     <br>20
                                 </blockquote>                                 
-                                <p>
-                                 	我想要印好幾個! <script src="https://gist.github.com/Daviswww/cad2c37ab79b549cc9744162590006e8.js"></script> </p>
+                                <p> 
+                                 	我想要印好幾個! <script src="https://gist.github.com/Daviswww/cad2c37ab79b549cc9744162590006e8.js"></script> </p> 
                                 <blockquote>1. Hello World!2. Hello World!3. Hello World!</blockquote>                                 
-                                <p>
-                                 	這邊換行跟cout不一樣他是直接在裡面打一個字符'\n'就可以完成換行了。 <script src="https://gist.github.com/Daviswww/d6330e02cebe9be5771db2651157cd52.js"></script> </p>
+                                <p> 
+                                 	這邊換行跟cout不一樣他是直接在裡面打一個字符'\n'就可以完成換行了。 <script src="https://gist.github.com/Daviswww/d6330e02cebe9be5771db2651157cd52.js"></script> </p> 
                                 <blockquote>1. Hello World!
                                     <br>2. Hello World!
                                     <br>3. Hello World!
                                 </blockquote>                                 
-                                <h5 style="font-weight: bold;">格式化的輸出:</h5>
-                                <p>
-                                    如果我們想要印一個整數型態的數字我們就在雙引號裡面加上對印的格式，以下我幾個舉常用的型態格式。<br> <script src="https://gist.github.com/Daviswww/635df9abb201cd3e33303d39d31c79bb.js"></script>
-                                    以第一個整數範例來看假如我要印一個整數型態的a，那我就要在雙引號內保留一個整數型態的格式，之後再雙引號外面補上要輸出的變數。 </p>
+                                <h5 style="font-weight: bold;">格式化的輸出:</h5> 
+                                <p> 
+                                    如果我們想要印一個整數型態的數字我們就在雙引號裡面加上對印的格式，以下我幾個舉常用的型態格式。<br> <script src="https://gist.github.com/Daviswww/635df9abb201cd3e33303d39d31c79bb.js"></script> 
+                                    以第一個整數範例來看假如我要印一個整數型態的a，那我就要在雙引號內保留一個整數型態的格式，之後再雙引號外面補上要輸出的變數。 </p> 
                                 <blockquote>a = 10
                                     <br>b = 3.140000
                                     <br>c = C
                                     <br>d = C++
                                 </blockquote>                                 
-                                <h5 style="font-weight: bold;">多個輸出:</h5>
-                                <p>
-                                    資料都是由左到右排下去的。 <script src="https://gist.github.com/Daviswww/1eb4ae9380713f410511da82b694acb8.js"></script> </p>
+                                <h5 style="font-weight: bold;">多個輸出:</h5> 
+                                <p> 
+                                    資料都是由左到右排下去的。 <script src="https://gist.github.com/Daviswww/1eb4ae9380713f410511da82b694acb8.js"></script> </p> 
                                 <blockquote>10 20 30 40</blockquote>                                 
-                                <p> <script src="https://gist.github.com/Daviswww/0dde59222a073050dd5b0410cea015e3.js"></script> </p>
+                                <p> <script src="https://gist.github.com/Daviswww/0dde59222a073050dd5b0410cea015e3.js"></script> </p> 
                                 <blockquote>a = 10 b = 3.140000 c = C d = C++</blockquote>                                 
-                                <h5 style="font-weight: bold;">設置字段寬度:</h5>
-                                <p>
-                                    printf的字段寬度設定就簡單多了，你只需要在格式前面加你想留的格數就行了。<br>
-                                    下面範例我在f前面寫了10就是字段寬度是10，所以3的前面就會有2格空白。 <script src="https://gist.github.com/Daviswww/1fb420cc4a265a3eeb89d04b2e2970cd.js"></script> </p>
+                                <h5 style="font-weight: bold;">設置字段寬度:</h5> 
+                                <p> 
+                                    printf的字段寬度設定就簡單多了，你只需要在格式前面加你想留的格數就行了。<br> 
+                                    下面範例我在f前面寫了10就是字段寬度是10，所以3的前面就會有2格空白。 <script src="https://gist.github.com/Daviswww/1fb420cc4a265a3eeb89d04b2e2970cd.js"></script> </p> 
                                 <blockquote>&nbsp;&nbsp;3.141593</blockquote>                                 
-                                <p>
-                                    小數點的話只需要加一個點後面寫要幾位就可以了(如果不夠會四捨五入)。 <script src="https://gist.github.com/Daviswww/79457e8b97f1a789147452a70fcd3fd5.js"></script> </p>
+                                <p> 
+                                    小數點的話只需要加一個點後面寫要幾位就可以了(如果不夠會四捨五入)。 <script src="https://gist.github.com/Daviswww/79457e8b97f1a789147452a70fcd3fd5.js"></script> </p> 
                                 <blockquote>3.14159265359</blockquote>                                 
-                                <p>
-                                   	如果想要讓他補0的話就在數字前面加0就可以了。 <script src="https://gist.github.com/Daviswww/fc8e0416feca26f8553528d3d3bc9fae.js"></script> </p>
+                                <p> 
+                                   	如果想要讓他補0的話就在數字前面加0就可以了。 <script src="https://gist.github.com/Daviswww/fc8e0416feca26f8553528d3d3bc9fae.js"></script> </p> 
                                 <blockquote>0000000777</blockquote>                                 
-                                <p>
-                                    你也可以用星號取代數字。<br> <script src="https://gist.github.com/Daviswww/9e4020ee3eb50a10dd27290e26c9bf36.js"></script> </p>
+                                <p> 
+                                    你也可以用星號取代數字。<br> <script src="https://gist.github.com/Daviswww/9e4020ee3eb50a10dd27290e26c9bf36.js"></script> </p> 
                                 <blockquote>&nbsp;&nbsp;&nbsp;10</blockquote>                                 
-                                <h5 style="font-weight: bold;">
-                                    完整的型態格式表: </h5>
-                                <p>
-                                    如果我要查int那就是1-1那一個那就是%d這樣。<br> <img src="../assets/img/from.png" width="100%" style="float: left;"/> </p>
-                                <h5 style="font-weight: bold;">
-                                    字符表: </h5>
-                                <p>
-                                    如果你要列印單引號等符號就加一個反斜線或是打兩次%%這樣。<br> <img src="../assets/img/cd.png" width="30%"/> </p>
+                                <h5 style="font-weight: bold;"> 
+                                    完整的型態格式表: </h5> 
+                                <p> 
+                                    如果我要查int那就是1-1那一個那就是%d這樣。<br> <img src="../assets/img/from.png" width="100%" style="float: left;"/> </p> 
+                                <h5 style="font-weight: bold;"> 
+                                    字符表: </h5> 
+                                <p> 
+                                    如果你要列印單引號等符號就加一個反斜線或是打兩次%%這樣。<br> <img src="../assets/img/cd.png" width="30%"/> </p> 
                             </div>                             
-                            <div id="test4" class="col s12">
-                                <h3 style="font-weight: bold;">
-                                    輸入: </h3>
-                                <h5 style="font-weight: bold;">簡介: </h5>
-                                <p>
-                                輸入的簡單運用。 </p>
-                                <blockquote class="gr">綠色棒棒是輸入</blockquote>
+                            <div id="test4" class="col s12"> 
+                                <h3 style="font-weight: bold;"> 
+                                    輸入: </h3> 
+                                <h5 style="font-weight: bold;">簡介: </h5> 
+                                <p> 
+                                輸入的簡單運用。 </p> 
+                                <blockquote class="gr">綠色棒棒是輸入</blockquote>                                 
                                 <blockquote>粉色棒棒是輸出</blockquote>                                 
-                                <br>
-                                <div class="divider"></div>
-                                <br>
-                                <h5 style="font-weight: bold;">
-                                   	cin </h5>
+                                <br> 
+                                <div class="divider"></div>                                 
+                                <br> 
+                                <h5 style="font-weight: bold;"> 
+                                   	cin </h5> 
                                 <p> 
-                                    再輸入之前我們要先宣告一個變數讓我們輸入的資料有地方儲存，注意cin是&gt&gt往右的箭頭與cout是相反的。<br> <script src="https://gist.github.com/Daviswww/43139a82525a620792ea4d50cc56a8a4.js"></script> </p>
-                                <blockquote class="gr">10</blockquote>
-                                <blockquote>a = 10</blockquote>
-                                <script src="https://gist.github.com/Daviswww/55e1729909a80d48a98ec207fd46a2be.js"></script>
-                                <blockquote class="gr">100 500</blockquote>
-                                <blockquote>a + b = 600</blockquote>
-                                <br>
-                                <div class="divider"></div>
-                                <br>
-                                <h5 style="font-weight: bold;">
-                                   	scanf </h5>
+                                    再輸入之前我們要先宣告一個變數讓我們輸入的資料有地方儲存，注意cin是&gt&gt往右的箭頭與cout是相反的。<br> <script src="https://gist.github.com/Daviswww/43139a82525a620792ea4d50cc56a8a4.js"></script> </p> 
+                                <blockquote class="gr">10</blockquote>                                 
+                                <blockquote>a = 10</blockquote>                                 
+                                <script src="https://gist.github.com/Daviswww/55e1729909a80d48a98ec207fd46a2be.js"></script>                                 
+                                <blockquote class="gr">100 500</blockquote>                                 
+                                <blockquote>a + b = 600</blockquote>                                 
+                                <br> 
+                                <div class="divider"></div>                                 
+                                <br> 
+                                <h5 style="font-weight: bold;"> 
+                                   	scanf </h5> 
                                 <p> 
-                                    scanf()會將十進位數字字串根據 % 後的指定格式轉換為二進位的表示方法，假如你想輸入的是自原就是改%c以此類推，& 為取址符號， 請務必使用於目的地變數之前。<br> <script src="https://gist.github.com/Daviswww/c11f73296b26c27ab8f933b56e3618fc.js"></script> </p>
-                                <blockquote class="gr">10</blockquote>
-                                <blockquote>a = 10</blockquote>
-                                <script src="https://gist.github.com/Daviswww/4b59fa5350edca6fe19c42e8c139ad00.js"></script>
-                                <blockquote class="gr">100 500</blockquote>
-                                <blockquote>a + b = 600</blockquote>
+                                    scanf()會將十進位數字字串根據 % 後的指定格式轉換為二進位的表示方法，假如你想輸入的是自原就是改%c以此類推，& 為取址符號， 請務必使用於目的地變數之前。<br> <script src="https://gist.github.com/Daviswww/c11f73296b26c27ab8f933b56e3618fc.js"></script> </p> 
+                                <blockquote class="gr">10</blockquote>                                 
+                                <blockquote>a = 10</blockquote>                                 
+                                <script src="https://gist.github.com/Daviswww/4b59fa5350edca6fe19c42e8c139ad00.js"></script>                                 
+                                <blockquote class="gr">100 500</blockquote>                                 
+                                <blockquote>a + b = 600</blockquote>                                 
                             </div>                             
-                        </div>
+                        </div>                         
                     </div>                     
                 </div>                 
             </div>             
