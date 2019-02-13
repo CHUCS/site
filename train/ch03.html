@@ -84,25 +84,135 @@
                             <div class="col s12"> 
                                 <ul class="tabs"> 
                                     <li class="tab col s3"> 
-                                        <a class="active" href="#test1">Test 1</a> 
+                                        <a class="active" href="#test1">運算子</a> 
                                     </li>                                     
                                     <li class="tab col s3"> 
-                                        <a href="#test2">Test 2</a> 
-                                    </li>                                     
-                                    <li class="tab col s3"> 
-                                        <a href="#test3">Test 3</a> 
-                                    </li>                                     
-                                    <li class="tab col s3"> 
-                                        <a href="#test4">Test 4</a> 
+                                        <a href="#test2">IF 的敘述句</a> 
                                     </li>                                     
                                     <li class="tab col s3"> 
 </li>                                     
                                 </ul>                                 
                             </div>                             
-                            <div id="test1" class="col s12">Test 1</div>                             
-                            <div id="test2" class="col s12">Test 2</div>                             
-                            <div id="test3" class="col s12">Test 3</div>                             
-                            <div id="test4" class="col s12">Test 4</div>                             
+                            <div id="test1" class="col s12">
+                                <h5 style="font-weight: bold;">簡介:</h5> 
+                                <p> 
+                                    這邊將會教你C的運算子以搭配IF敘述句使用。</p>
+                                <br> 
+                                <div class="divider"></div>                                 
+                                <br> 
+                                <h5 style="font-weight: bold;">等號運算子與關係運算子:</h5> 
+                                <table> 
+                                    <thead> 
+                                        <tr> 
+                                            <th data-field="id">運算子</th> 
+                                            <th data-field="name">代表意思</th> 
+                                            <th data-field="name">C的條件式範例</th> 
+                                            <th data-field="name">條件式意思</th> 
+                                        </tr>                                         
+                                    </thead>                                     
+                                    <tbody> 
+                                        <tr> 
+                                            <td>==</td> 
+                                            <td>等於</td> 
+                                            <td>A == B</td> 
+                                            <td>A 等於 B</td> 
+                                        </tr>                                         
+                                    </tbody>                                     
+                                    <thead> 
+                                        <tr></tr>                                         
+                                    </thead>                                     
+                                    <tbody> 
+                                        <tr> 
+                                            <td>!=</td> 
+                                            <td>不等於</td> 
+                                            <td>A != B</td> 
+                                            <td>A 不等於 B</td> 
+                                        </tr>                                         
+                                    </tbody>                                     
+                                    <thead> 
+                                        <tr></tr>                                         
+                                    </thead>                                     
+                                    <tbody> 
+                                        <tr> 
+                                            <td>&gt</td> 
+                                            <td>大於</td> 
+                                            <td>A &gt B</td> 
+                                            <td>A 大於 B</td> 
+                                        </tr>                                         
+                                    </tbody>                                     
+                                    <thead> 
+                                        <tr></tr>                                         
+                                    </thead>                                     
+                                    <tbody> 
+                                        <tr> 
+                                            <td>&lt</td> 
+                                            <td>小於</td> 
+                                            <td>A &lt B</td> 
+                                            <td>A 小於 B</td> 
+                                        </tr>                                         
+                                    </tbody>                                     
+                                    <thead> 
+                                        <tr></tr>                                         
+                                    </thead>                                     
+                                    <tbody> 
+                                        <tr> 
+                                            <td>&gt=</td> 
+                                            <td>大於等於</td> 
+                                            <td>A &gt= B</td> 
+                                            <td>A 大於等於 B</td> 
+                                        </tr>                                         
+                                    </tbody>                                     
+                                    <thead> 
+                                        <tr></tr>                                         
+                                    </thead>                                     
+                                    <tbody> 
+                                        <tr> 
+                                            <td>&lt=</td> 
+                                            <td>小於等於</td> 
+                                            <td>A &lt= B</td> 
+                                            <td>A 小於等於 B</td> 
+                                        </tr>                                         
+                                    </tbody>                                     
+                                    <thead> 
+                                        <tr></tr>                                         
+                                    </thead>                                     
+                                </table>                                 
+                            </div>                             
+                            <div id="test2" class="col s12">
+                                <h5 style="font-weight: bold;">簡介:</h5> 
+                                <p> 
+                                    IF敘述句的基本使用。<br> <blockquote>輸出結果</blockquote> </p>
+                                <br> 
+                                <div class="divider"></div>                                 
+                                <br>
+                                <h5 style="font-weight: bold;">數值比較:</h5> 
+                                <p> 
+                                    比對兩個變數A和B是否相等。<br> <script src="https://gist.github.com/Daviswww/c6c97ea5945c01dee59c5fdb3549133b.js"></script> </p>
+                                <blockquote>Hello A is equal to B!</blockquote>                                 
+                                <br> 
+                                <div class="divider"></div>                                 
+                                <br>
+                                <h5 style="font-weight: bold;">巢狀比較:</h5> 
+                                <p> 
+                                    以兩層IF敘述式的方式呈現。<br> <script src="https://gist.github.com/Daviswww/0a99f3aa857399a67eeaa1d9d27b66de.js"></script> </p>
+                                <blockquote>Hello A is equal to B!</blockquote>                                 
+                                <br> 
+                                <div class="divider"></div>                                 
+                                <br>
+                                <h5 style="font-weight: bold;">IF ELSE IF:</h5> 
+                                <p> 
+                                    這個敘述式是指如果怎樣又如果怎樣，所以如果有敘事是不成立就會繼續往下執行執行直到成立就不往下判斷。<br> <script src="https://gist.github.com/Daviswww/795cc4aec6df71b42271aa248a5273ea.js"></script> </p>
+                                <blockquote>1. Hello A is equal to B!</blockquote>                                 
+                                <br> 
+                                <div class="divider"></div>                                 
+                                <br>
+                                <h5 style="font-weight: bold;">IF ELSE:</h5> 
+                                <p> 
+                                    這個敘述式是指如果以上都不成立就會進來這裡。<br> <script src="https://gist.github.com/Daviswww/d0d17a93dae5d962bf92b641662e324d.js"></script> </p>
+                                <blockquote>Other!</blockquote>                                 
+                                <br> 
+                                <div class="divider"></div>                                 
+                            </div>                             
                         </div>                         
                     </div>                     
                 </div>                 
