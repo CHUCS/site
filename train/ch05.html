@@ -41,7 +41,7 @@
                     </a>                     
                 </li>                 
                 <li class="bold"> 
-                    <a href="../volume/view.html" class="waves-effect waves-teal" target="_pg_blank">解題報告</a> 
+                    <a href="https://chucs.github.io/" class="waves-effect waves-teal" target="_pg_blank">解題報告</a> 
                 </li>                 
                 <li class="no-padding"> 
                     <ul class="collapsible collapsible-accordion"> 
@@ -78,31 +78,72 @@
             <div class="container"> 
                 <div class="row"> 
                     <div class="col s13 m9 110"> 
-                        <div class="divider"></div>                         
+                        <br>
                         <h4 id="tabs">第五章</h4> 
                         <div class="row"> 
                             <div class="col s12"> 
-                                <ul class="tabs"> 
-                                    <li class="tab col s3"> 
-                                        <a class="active" href="#test1">Test 1</a> 
-                                    </li>                                     
-                                    <li class="tab col s3"> 
-                                        <a href="#test2">Test 2</a> 
-                                    </li>                                     
-                                    <li class="tab col s3"> 
-                                        <a href="#test3">Test 3</a> 
-                                    </li>                                     
-                                    <li class="tab col s3"> 
-                                        <a href="#test4">Test 4</a> 
-                                    </li>                                     
-                                    <li class="tab col s3"> 
-</li>
-                                </ul>                                 
+                                <h5 style="font-weight: bold;">簡介:</h5>
+                                <p>
+                                    這一章將教你使用陣列的基本方式，你可能會問我變數用好好的為什麼要用陣列呢?但是如果你要計算10位同學成績時，總不可能宣告100個變數來儲存吧，又如果今天你要做一個下棋遊戲，你一定要一個棋盤才能下棋，那棋盤大小如果是50X50那豈不是要2500個變數了，於是C語言就有了陣列，他就像一個有順序的置物櫃一樣，可以存放一個以上的資料。<br></p>
+                                <blockquote class="gr">輸入</blockquote>                                 
+                                <blockquote>輸出</blockquote>
+                                <br>
+                                <div class="divider"></div>
+                                <br>
+                                <h5 style="font-weight: bold;">一維陣列與變數差別:</h5>
+                                <img src="..\assets\img\ch\ch5-01-01.png" width="700"/>
+                                <h5 style="font-weight: bold;">一維陣列的宣告:</h5>
+                                <p>
+                                    資料型態可以是 int、float、char 等...，以下是幾個宣告的範例。 <script src="https://gist.github.com/Daviswww/c1b766c72199a2c902e17fd4c7c16c5a.js"></script><br>
+                                    如果宣告陣列後如果裡面的值還未定的話可以設定一個初始值，可以避免程式存取到非預期的數值。範例如下:<br> <script src="https://gist.github.com/Daviswww/4872c5f0c8edbd2890568c6d34415ed1.js"></script>
+                                    如果陣列內要預先設定值的話可以寫成下面範例這樣。 <script src="https://gist.github.com/Daviswww/bef0350544f145ed5367e931a389c1c1.js"></script> </p>
+                                <br>
+                                <div class="divider"></div>
+                                <br>
+                                <h5 style="font-weight: bold;">一維陣列儲存資料:</h5>
+                                <p>
+									存取資料的方式跟宣告一個變數時儲存的方式其實一樣，以下是儲存一個資料的範例。<br> <script src="https://gist.github.com/Daviswww/c7d0334614338296ab4570a4d7e16956.js"></script> <blockquote class="gr">10</blockquote> <blockquote>a[0] = 10</blockquote> 
+                                    我們可以搭配之前上一章教過的迴圈來做輸入與控制，讓我們的程式更精簡下面是範例。<br> <script src="https://gist.github.com/Daviswww/8cea96cd22d1172cf68b656989e4f21e.js"></script> <blockquote class="gr">0 1 2 3 4 5 </blockquote> <blockquote>a[0] = 1 
+                                        <br>a[1] = 2 
+                                        <br>a[2] = 3 
+                                        <br>a[3] = 4 
+                                        <br>a[4] = 5
+                                    </blockquote> </p>
+                                <br>
+                                <div class="divider"></div>
+                                <br>
+                                <h5 style="font-weight: bold;">二維陣列與一維陣列:</h5>
+                                <p>
+                                    二維陣列跟一維的宣告方式一樣，使用方法也大同小異沒有什麼差別，二維陣列就跟棋盤一樣。<br> <img src="..\assets\img\ch\ch5-01-02.png"/><br> </p>
+                                <br>
+                                <div class="divider"></div>
+                                <br>
+                                <h5 style="font-weight: bold;">二維陣列的宣告:</h5>
+                                <p>
+                                    二維陣列和一維陣列的宣告非常相似，可以看到下面範例其實跟一維非常像。 <script src="https://gist.github.com/Daviswww/440287efb0d2ef304a6c95ef86688000.js"></script><br>
+                            		在二維陣列內預先設定儲存資料如下面範例。<script src="https://gist.github.com/Daviswww/4480643d280f82599b98090f0e79f6ec.js"></script> </p>
+                                <br>
+                                <div class="divider"></div>
+                                <br>
+                                <h5 style="font-weight: bold;">一維陣列儲存資料:</h5>
+                                <p>
+             					輸入一比資料在二維陣列內然。 <script src="https://gist.github.com/Daviswww/f65cdb03b1fc92a0afa9b8a3d7b2091f.js"></script></p>
+                                <blockquote class="gr">10</blockquote>                                 
+
+                                <blockquote>a[0] = 10</blockquote>                                 
+
+                                <p>
+                                輸入多筆的資料我們可以使用兩個迴圈來控制。 <script src="https://gist.github.com/Daviswww/369a94629344bb3a2f9719d664218075.js"></script> </p>
+                                <blockquote class="gr">1 2 3
+                                    <br>4 5 6
+                                    <br>7 8 9 
+                                </blockquote>                                 
+
+                                <blockquote>a[0][0] = 1 a[0][1] = 2 a[0][2] = 3
+                                    <br>a[1][0] = 4 a[1][1] = 5 a[1][2] = 6
+                                    <br>a[2][0] = 7 a[2][1] = 8 a[2][2] = 9
+                                </blockquote>
                             </div>                             
-                            <div id="test1" class="col s12">Test 1</div>                             
-                            <div id="test2" class="col s12">Test 2</div>                             
-                            <div id="test3" class="col s12">Test 3</div>                             
-                            <div id="test4" class="col s12">Test 4</div>                             
                         </div>                         
                     </div>                     
                 </div>                 
